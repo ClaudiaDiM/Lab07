@@ -4,7 +4,7 @@ import java.sql.Connection;
 
 public class TestPowerOutagesDAO {
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		
 		try {
 			Connection connection = ConnectDB.getConnection();
@@ -13,12 +13,13 @@ public class TestPowerOutagesDAO {
 			
 			PowerOutageDAO dao = new PowerOutageDAO() ;
 			
-			System.out.println(dao.getNercList()) ;
+			//System.out.println(dao.getNercList()) ;
 
 		} catch (Exception e) {
 			System.err.println("Test FAILED");
 		}
 
 	}
+	*/
 
 }
